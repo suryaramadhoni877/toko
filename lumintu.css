@@ -1,0 +1,32 @@
+body{
+	font-family: 'Poppins' sans-serif;
+	background-color:#212529;
+
+	color: white;
+	min-height: 1250px;
+}
+
+
+/*halaman utama*/  
+.utama{
+	min-height: 100vh;
+	display: flex;
+	align-items: center; 
+	background-image: url('img/bg1.jpg');
+	background-size:cover;
+	background-position: center;
+	position: relative;
+}
+
+.utama.content{
+	padding: 5 rem;
+	max-width: 60rem;
+}
+
+.utama .content h1{
+	font-size: 5em;
+	color: white;
+	line-height: 0.5;
+}
+
+
